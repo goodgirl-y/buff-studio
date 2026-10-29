@@ -318,3 +318,24 @@
     height: 120px;
   }
 }
+
+/* iPad 가로 화면 - 질문 및 결과 박스 높이 확대 */
+@media (orientation: landscape) and (min-width: 800px) {
+
+  /* 질문 화면: 검정 박스 */
+  .quiz-screen .question-box {
+    min-height: 290px;
+    padding-top: 42px;
+    padding-bottom: 42px;
+  }
+
+  /* 일반 결과 화면: 하늘색 박스 */
+  .result-screen.result-other .result-card {
+    min-height: 420px;
+  }
+
+  /* 점심 결과 화면: 하늘색 박스 */
+  .result-screen.result-lunch .result-card {
+    min-height: 510px;
+  }
+}

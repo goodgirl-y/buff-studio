@@ -186,7 +186,7 @@ button:focus-visible {
 
 .question-box {
   width: 100%;
-  min-height: 255px;
+  min-height: 240px;
   padding: 36px 45px;
   background: #000;
   color: #fff;
@@ -457,7 +457,7 @@ button:focus-visible {
   }
 
   .question-box {
-    min-height: 255px;
+    min-height: 240px;
   }
 
   .answer {

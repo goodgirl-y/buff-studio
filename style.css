@@ -210,7 +210,6 @@ button:focus-visible {
   margin: 0;
   color: #fff;
   letter-spacing: -.03em;
-  white-space: pre-line;
 }
 
 .answers {

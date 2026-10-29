@@ -457,7 +457,7 @@ button:focus-visible {
   }
 
   .question-box {
-    min-height: 270px;
+    min-height: 255px;
   }
 
   .answer {

@@ -142,14 +142,14 @@
   }
 
   .question-box {
-    width: 100%;
-    min-height: clamp(180px, 25dvh, 265px);
-    height: auto;
-    padding: clamp(24px, 4dvh, 44px) 6%;
-    gap: clamp(22px, 4dvh, 42px);
-    border-radius: 25px;
-    justify-content: center;
-  }
+  width: 100%;
+  min-height: clamp(220px, 31dvh, 300px);
+  height: auto;
+  padding: clamp(24px, 4dvh, 44px) 6%;
+  gap: clamp(22px, 4dvh, 42px);
+  border-radius: 25px;
+  justify-content: center;
+}
 
   .question-box .question-label {
     font-size: clamp(15px, 1.4vw, 18px);
@@ -202,14 +202,14 @@
     font-size: clamp(24px, 2.3vw, 29px);
   }
 
-  .result-screen .result-card {
-    width: min(100%, 46.2vw);
-    max-width: 695px;
-    min-height: clamp(290px, 39dvh, 405px);
-    padding: clamp(28px, 4dvh, 48px) 32px;
-    border-radius: 26px;
-    justify-content: center;
-  }
+ .result-screen .result-card {
+  width: min(100%, 46.2vw);
+  max-width: 695px;
+  min-height: clamp(290px, 39dvh, 405px);
+  padding: clamp(28px, 4dvh, 48px) 32px;
+  border-radius: 26px;
+  justify-content: center;
+}
 
   .result-screen .result-label {
     font-size: clamp(16px, 1.5vw, 20px);
@@ -250,11 +250,11 @@
 
   /* 점심 메뉴 결과 화면 */
   .result-lunch .result-card {
-    width: min(100%, 38vw);
-    max-width: 570px;
-    min-height: clamp(380px, 50dvh, 525px);
-    padding: clamp(19px, 3dvh, 36px) 25px;
-  }
+  width: min(100%, 38vw);
+  max-width: 570px;
+  min-height: clamp(380px, 50dvh, 525px);
+  padding: clamp(19px, 3dvh, 36px) 25px;
+}
 
   .result-lunch .result-card h2 {
     margin: 9px 0 clamp(12px, 1.6dvh, 17px);
@@ -319,23 +319,3 @@
   }
 }
 
-/* iPad 가로 화면 - 질문 및 결과 박스 높이 확대 */
-@media (orientation: landscape) and (min-width: 800px) {
-
-  /* 질문 화면: 검정 박스 */
-  .quiz-screen .question-box {
-    min-height: 290px;
-    padding-top: 42px;
-    padding-bottom: 42px;
-  }
-
-  /* 일반 결과 화면: 하늘색 박스 */
-  .result-screen.result-other .result-card {
-    min-height: 420px;
-  }
-
-  /* 점심 결과 화면: 하늘색 박스 */
-  .result-screen.result-lunch .result-card {
-    min-height: 510px;
-  }
-}
